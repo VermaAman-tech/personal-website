@@ -12,7 +12,8 @@ const Navbar = () => {
     { path: '/', label: 'About' },
     { path: '/academics', label: 'Academics' },
     { path: '/research', label: 'Research' },
-    { path: '/development', label: 'Development' }
+    { path: '/development', label: 'Development' },
+    { path: '/internship', label: 'Internship' }
   ];
 
   const toggleMenu = () => setIsOpen(!isOpen);

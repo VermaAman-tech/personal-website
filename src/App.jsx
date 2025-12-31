@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Academics from './pages/Academics';
 import Research from './pages/Research';
 import Development from './pages/Development';
+import Internship from './pages/Internship';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/academics" element={<Academics />} />
             <Route path="/research" element={<Research />} />
             <Route path="/development" element={<Development />} />
+            <Route path="/internship" element={<Internship />} />
           </Routes>
         </AnimatePresence>
       </main>

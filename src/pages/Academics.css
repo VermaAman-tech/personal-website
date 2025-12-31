@@ -1,0 +1,169 @@
+.academics-page {
+    padding-top: 6rem;
+}
+
+.education-stats {
+    margin-bottom: 3rem;
+}
+
+.stat-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+.stat-icon {
+    font-size: 3rem;
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 1.5rem;
+    border-radius: var(--radius-lg);
+}
+
+.stat-content h3 {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--text-primary);
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-meta {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.college-card {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.college-icon {
+    font-size: 4rem;
+    color: var(--accent-secondary);
+    background: rgba(139, 92, 246, 0.1);
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+}
+
+.college-info h2 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.college-info h3 {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+
+.college-details {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cgpa-badge,
+.year-badge {
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.cgpa-badge {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--accent-success);
+    border: 1px solid var(--accent-success);
+}
+
+.year-badge {
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
+}
+
+.courses-section {
+    margin-top: 3rem;
+}
+
+.subsection-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.semester-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.semester-tab {
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+.semester-tab:hover {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: var(--accent-primary);
+    color: var(--text-primary);
+}
+
+.semester-tab.active {
+    background: var(--gradient-primary);
+    border-color: transparent;
+    color: white;
+}
+
+.semester-content {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .college-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .college-details {
+        justify-content: center;
+    }
+
+    .semester-tabs {
+        gap: 0.5rem;
+    }
+
+    .semester-tab {
+        padding: 0.625rem 1rem;
+        font-size: 0.9rem;
+    }
+}

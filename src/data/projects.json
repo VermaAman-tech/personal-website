@@ -1,0 +1,265 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "OTAP - Open Telemetry & Analytics Platform",
+            "description": "Production-grade data engineering platform implementing CDC, stream processing, lakehouse architecture, and real-time analytics with complete observability.",
+            "github": "https://github.com/VermaAman-tech/otap-platform",
+            "demo": null,
+            "skills": [
+                "Apache Flink",
+                "Kafka",
+                "PostgreSQL",
+                "ClickHouse",
+                "dbt",
+                "Docker"
+            ],
+            "category": "Data Engineering",
+            "highlights": [
+                "Real-time CDC from PostgreSQL using Debezium",
+                "Flink streaming jobs for event enrichment",
+                "Lakehouse with MinIO and Delta Lake",
+                "Complete observability with Prometheus & Grafana"
+            ],
+            "date": "2024"
+        },
+        {
+            "id": 2,
+            "title": "Conductor - Real-time Collaborative Studio",
+            "description": "Production-ready collaborative platform with real-time presence, WebSocket communication, Redis caching, and beautiful React frontend.",
+            "github": "https://github.com/VermaAman-tech/conductor",
+            "demo": null,
+            "skills": [
+                "React",
+                "Spring Boot",
+                "WebSocket",
+                "Redis",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "category": "Full-Stack Web",
+            "highlights": [
+                "Real-time user presence tracking",
+                "WebSocket-based live collaboration",
+                "Redis for session management",
+                "Responsive UI with custom animations"
+            ],
+            "date": "2024"
+        },
+        {
+            "id": 3,
+            "title": "AutoResearch Copilot",
+            "description": "AI-powered research assistant with RAG pipeline, multi-agent reasoning, and interactive Streamlit frontend for automated research workflows.",
+            "github": "https://github.com/VermaAman-tech/autoresearch-copilot",
+            "demo": null,
+            "skills": [
+                "Python",
+                "FastAPI",
+                "LangChain",
+                "Streamlit",
+                "OpenAI",
+                "ChromaDB"
+            ],
+            "category": "AI/ML",
+            "highlights": [
+                "RAG pipeline with vector search",
+                "Multi-agent reasoning system",
+                "Interactive research interface",
+                "Document processing & summarization"
+            ],
+            "date": "2024"
+        },
+        {
+            "id": 4,
+            "title": "Voice Navigation System",
+            "description": "Windows voice-controlled navigation system with speech recognition, natural language processing, and automated command execution.",
+            "github": "https://github.com/VermaAman-tech/voice-navigation",
+            "demo": null,
+            "skills": [
+                "Python",
+                "SpeechRecognition",
+                "Windows API",
+                "NLP"
+            ],
+            "category": "Desktop Application",
+            "highlights": [
+                "Real-time speech-to-text conversion",
+                "Pattern-based command interpretation",
+                "Windows automation integration",
+                "Custom voice commands"
+            ],
+            "date": "2024"
+        },
+        {
+            "id": 5,
+            "title": "E-Commerce Platform",
+            "description": "Full-featured e-commerce platform with product catalog, shopping cart, payment integration, and admin dashboard.",
+            "github": "https://github.com/VermaAman-tech/ecommerce-platform",
+            "demo": "https://demo-ecommerce.example.com",
+            "skills": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Stripe",
+                "Redux",
+                "Express"
+            ],
+            "category": "Full-Stack Web",
+            "highlights": [
+                "Secure payment processing with Stripe",
+                "Advanced product filtering & search",
+                "Real-time inventory management",
+                "Admin dashboard with analytics"
+            ],
+            "date": "2023"
+        },
+        {
+            "id": 6,
+            "title": "Smart Home IoT Dashboard",
+            "description": "IoT dashboard for monitoring and controlling smart home devices with real-time data visualization and automation rules.",
+            "github": "https://github.com/VermaAman-tech/smart-home-dashboard",
+            "demo": null,
+            "skills": [
+                "React",
+                "MQTT",
+                "InfluxDB",
+                "Grafana",
+                "Python",
+                "Raspberry Pi"
+            ],
+            "category": "IoT",
+            "highlights": [
+                "Real-time sensor data visualization",
+                "MQTT protocol for device communication",
+                "Custom automation rules engine",
+                "Time-series data storage"
+            ],
+            "date": "2023"
+        },
+        {
+            "id": 7,
+            "title": "Kubernetes Cluster Manager",
+            "description": "Web-based management tool for Kubernetes clusters with deployment automation, monitoring, and log aggregation.",
+            "github": "https://github.com/VermaAman-tech/k8s-manager",
+            "demo": null,
+            "skills": [
+                "Go",
+                "Kubernetes",
+                "Docker",
+                "Prometheus",
+                "React",
+                "Helm"
+            ],
+            "category": "DevOps",
+            "highlights": [
+                "One-click application deployment",
+                "Cluster health monitoring",
+                "Log aggregation & search",
+                "Resource utilization dashboards"
+            ],
+            "date": "2023"
+        },
+        {
+            "id": 8,
+            "title": "Social Media Analytics Tool",
+            "description": "Analytics platform for tracking social media metrics, sentiment analysis, and engagement insights across multiple platforms.",
+            "github": "https://github.com/VermaAman-tech/social-analytics",
+            "demo": null,
+            "skills": [
+                "Python",
+                "Django",
+                "Celery",
+                "PostgreSQL",
+                "NLP",
+                "Chart.js"
+            ],
+            "category": "Data Analytics",
+            "highlights": [
+                "Multi-platform data aggregation",
+                "Sentiment analysis using NLP",
+                "Custom reporting & dashboards",
+                "Scheduled data collection"
+            ],
+            "date": "2022"
+        },
+        {
+            "id": 9,
+            "title": "Mobile Fitness Tracker",
+            "description": "Cross-platform mobile app for fitness tracking with workout plans, progress visualization, and social features.",
+            "github": "https://github.com/VermaAman-tech/fitness-tracker",
+            "demo": null,
+            "skills": [
+                "React Native",
+                "Firebase",
+                "Redux",
+                "Node.js",
+                "MongoDB"
+            ],
+            "category": "Mobile Development",
+            "highlights": [
+                "Personalized workout plans",
+                "Progress tracking & analytics",
+                "Social challenges & leaderboards",
+                "Integration with wearable devices"
+            ],
+            "date": "2022"
+        },
+        {
+            "id": 10,
+            "title": "CI/CD Pipeline Orchestrator",
+            "description": "Custom CI/CD platform for automating build, test, and deployment workflows with plugin architecture and monitoring.",
+            "github": "https://github.com/VermaAman-tech/cicd-orchestrator",
+            "demo": null,
+            "skills": [
+                "Python",
+                "Docker",
+                "Jenkins",
+                "GitLab CI",
+                "Ansible",
+                "Terraform"
+            ],
+            "category": "DevOps",
+            "highlights": [
+                "Plugin-based architecture",
+                "Multi-cloud deployment support",
+                "Pipeline visualization",
+                "Integrated testing & reporting"
+            ],
+            "date": "2022"
+        }
+    ],
+    "skillCategories": [
+        {
+            "name": "Full-Stack Web",
+            "description": "Web applications with modern frontend and backend technologies"
+        },
+        {
+            "name": "Data Engineering",
+            "description": "Big data processing, analytics, and real-time streaming platforms"
+        },
+        {
+            "name": "AI/ML",
+            "description": "Machine learning, NLP, and AI-powered applications"
+        },
+        {
+            "name": "DevOps",
+            "description": "Infrastructure automation, CI/CD, and cloud deployment"
+        },
+        {
+            "name": "Mobile Development",
+            "description": "Cross-platform and native mobile applications"
+        },
+        {
+            "name": "IoT",
+            "description": "Internet of Things, sensor networks, and embedded systems"
+        },
+        {
+            "name": "Data Analytics",
+            "description": "Data visualization, analytics platforms, and business intelligence"
+        },
+        {
+            "name": "Desktop Application",
+            "description": "Desktop software and system utilities"
+        }
+    ]
+}

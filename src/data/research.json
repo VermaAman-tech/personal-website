@@ -1,0 +1,101 @@
+{
+    "research": [
+        {
+            "id": 1,
+            "title": "Deep Learning for Medical Image Analysis",
+            "description": "Developed a novel CNN architecture for automated disease detection in medical imaging. Achieved 96% accuracy on multiple datasets.",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "OpenCV"
+            ],
+            "duration": "Jan 2023 - Jun 2023",
+            "status": "Published",
+            "publication": "IEEE Conference on Medical Imaging 2023",
+            "highlights": [
+                "Designed custom CNN architecture with attention mechanisms",
+                "Trained on 50,000+ medical images",
+                "Reduced false positives by 40%",
+                "Published in peer-reviewed conference"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Distributed Cache Optimization for Cloud-Native Applications",
+            "description": "Researched and implemented novel caching strategies for microservices architectures, improving response times by 60%.",
+            "technologies": [
+                "Redis",
+                "Java",
+                "Kubernetes",
+                "Docker"
+            ],
+            "duration": "Aug 2022 - Dec 2022",
+            "status": "Completed",
+            "highlights": [
+                "Developed adaptive cache invalidation algorithm",
+                "Tested on production-scale workloads",
+                "60% improvement in response time",
+                "25% reduction in database load"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Natural Language Processing for Code Generation",
+            "description": "Built a transformer-based model to generate code from natural language descriptions with high accuracy.",
+            "technologies": [
+                "Python",
+                "PyTorch",
+                "Transformers",
+                "BERT"
+            ],
+            "duration": "Mar 2023 - Present",
+            "status": "In Progress",
+            "highlights": [
+                "Fine-tuned GPT-based models on code datasets",
+                "94% syntactic correctness on test set",
+                "Supports multiple programming languages",
+                "Working on production deployment"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Blockchain-based Supply Chain Transparency",
+            "description": "Designed a decentralized system for tracking products across supply chains using smart contracts and IPFS.",
+            "technologies": [
+                "Solidity",
+                "Ethereum",
+                "IPFS",
+                "Web3.js"
+            ],
+            "duration": "Sep 2022 - Feb 2023",
+            "status": "Completed",
+            "highlights": [
+                "Implemented smart contracts for product tracking",
+                "Integrated with IPFS for document storage",
+                "Reduced verification time by 70%",
+                "Successfully tested with 100+ transactions"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Real-time Anomaly Detection in IoT Networks",
+            "description": "Developed a machine learning pipeline for detecting anomalies in IoT sensor data streams in real-time.",
+            "technologies": [
+                "Python",
+                "Apache Kafka",
+                "Spark Streaming",
+                "scikit-learn"
+            ],
+            "duration": "Jan 2022 - Jul 2022",
+            "status": "Published",
+            "publication": "ACM IoT Conference 2022",
+            "highlights": [
+                "Processed 10M+ sensor readings per second",
+                "98% detection accuracy with low false positives",
+                "Sub-100ms detection latency",
+                "Deployed in production IoT environment"
+            ]
+        }
+    ]
+}

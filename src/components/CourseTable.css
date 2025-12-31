@@ -1,0 +1,77 @@
+.course-table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+thead {
+    background: rgba(99, 102, 241, 0.1);
+}
+
+th {
+    padding: 1rem;
+    text-align: left;
+    color: var(--accent-primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 1rem;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+}
+
+tr:hover {
+    background: rgba(99, 102, 241, 0.05);
+}
+
+.grade {
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.grade-A {
+    background: rgba(16, 185, 129, 0.2);
+    color: var(--accent-success);
+    border: 1px solid var(--accent-success);
+}
+
+.grade-Aplus {
+    background: rgba(16, 185, 129, 0.3);
+    color: var(--accent-success);
+    border: 1px solid var(--accent-success);
+}
+
+.grade-Aminus {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--accent-success);
+    border: 1px solid var(--accent-success);
+}
+
+.grade-Bplus,
+.grade-B {
+    background: rgba(245, 158, 11, 0.2);
+    color: var(--accent-warning);
+    border: 1px solid var(--accent-warning);
+}
+
+@media (max-width: 768px) {
+
+    th,
+    td {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.875rem;
+    }
+}

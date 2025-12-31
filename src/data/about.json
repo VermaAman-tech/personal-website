@@ -1,0 +1,20 @@
+{
+    "name": "Aman Verma",
+    "title": "Software Engineer & Developer",
+    "bio": "Passionate software engineer with expertise in full-stack development, data engineering, and research. I love building scalable systems and exploring cutting-edge technologies. Always eager to learn and contribute to innovative projects.",
+    "email": "amanverma@example.com",
+    "github": "https://github.com/VermaAman-tech",
+    "linkedin": "https://linkedin.com/in/amanverma",
+    "twitter": "https://twitter.com/amanverma",
+    "location": "India",
+    "skills": [
+        "React",
+        "Node.js",
+        "Python",
+        "Java",
+        "Data Engineering",
+        "System Design",
+        "Cloud Computing",
+        "Machine Learning"
+    ]
+}
